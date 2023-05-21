@@ -1,6 +1,6 @@
 import React from "react";
 import './login.css';
-import logo from "C:/Users/jaimy/homefinder/src/images/homefinders-low-resolution-logo-color-on-transparent-background.png"
+import logo from "../../images/homefinders-low-resolution-logo-color-on-transparent-background.png"
 import { GoogleAuthProvider } from "firebase/auth";
 import { getAuth, signInWithPopup } from "firebase/auth";
 import {app} from "../../firebase";
