@@ -1,7 +1,7 @@
 import React from "react";
 import './Hero.css'
-import logopng from "C:/Users/jaimy/homefinder/src/images/homefinders-low-resolution-logo-color-on-transparent-background.png"
-import hero from "C:/Users/jaimy/homefinder/src/images/hero.jpg"
+import logopng from "../../images/homefinders-low-resolution-logo-color-on-transparent-background.png"
+import hero from "../../images/hero.jpg"
 export default function Hero() {
   return (
     <div className="hero">
