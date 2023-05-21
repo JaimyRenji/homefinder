@@ -1,0 +1,104 @@
+.login{
+    height:100vh;
+    width:100%
+}
+.login-cont{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.login-head{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.login-head h1{
+    text-align: center;
+    font-style: "Poppins";
+    font-size:60px;
+    margin-bottom:5px;
+}
+.login-head p{
+    margin:0;
+    font-style:"Poppins";
+    font-size:18px;
+    color: gray;
+}
+.login-button{
+    display: inline-block;
+    position:relative;
+    justify-content:center;
+    align-items:column;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 1px 2px;
+    width:500px;
+    height:100px;
+    margin-top:90px;
+    border-radius:20px;
+}
+.login-button button{
+    width:400px;
+    height:50px;
+    position: absolute;
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    justify-content:center;
+    align-items:center;
+    flex-direction: right;
+    background-color: #F8FAFC;
+    border-radius: 10px;
+    border-color: rgb(184, 175, 175);
+}
+.login-button button img{
+    height:100px;
+    margin-left:10px;
+    margin-top:10px;
+    display:inline-block;
+    height:20px;
+    vertical-align:text-bottom;
+}
+.login-button button p{
+    font-family: "poppins";
+    margin-top:0px;
+    margin-bottom:18px;
+    margin-left:10px;
+    display:inline-block;
+    vertical-align:middle 42%;
+}
+.login-main{
+    display: flex;
+    column-gap:20px;
+}
+.log-left{
+    display:inline-block;
+    margin-left:20px;
+    width:40%
+}
+.log-right{
+    display:inline-block;
+}
+.log-right{
+    display:inline-block;
+    background-image: url('https://media.istockphoto.com/id/518429442/photo/hand-with-magnifying-glass-over-house.jpg?s=612x612&w=0&k=20&c=u6L9sc1o_7MjUsaYM4jF58pJY4ztjvaJ1hAnGcG10BI=');
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    width:60%;
+}
+.img-overlay{
+    height:100vh;
+    width:100%;
+    background-color:hsla(328, 59%, 41%, 0.69) ;
+}
+.logo{
+    width:250px;
+    margin:0;
+    padding-top:0px;
+    padding-bottom:20px;
+}

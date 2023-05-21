@@ -1,0 +1,163 @@
+body{
+    background-color:aliceblue;
+    /*background-color: whitesmoke;*/
+}
+.fa{
+    margin-left:10px;
+}
+.cont{
+    display:flex;
+    gap:20px;
+}
+.dashbar{
+    border:2px solid grey;
+    border-radius: 20px;
+    margin-top:10px;
+    margin-right:15px;
+    margin-bottom: 0;
+    background-color:rgba(255, 255, 255, 0.547);
+    width:99%;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+}
+.dashleft{
+    display: inline-block;
+}
+.dashright{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+.logod{
+    display:inline-block;
+    padding:16px;
+    padding-top:10px;
+    height:30px;
+    }
+.userpic{
+    display:inline-block;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.username{
+    font-family: "poppins";
+    display:inline-block;
+}
+.userpic img{
+    border-radius: 50%;
+    margin-top:10px;
+    margin-right:10px;
+    height:30px;
+}
+.dashnav{
+    margin-left:10px;
+    margin-top: 15px;
+    display:inline-block;
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.634);
+    border:2px solid grey;
+    height: 87vh;
+    width:15%;
+
+}
+.dashnav a{
+  text-align: left;
+  padding-top:8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: hsl(0, 0%, 51%);
+  display:flex;
+}
+.dashnav a:hover{
+    color:black;
+}
+.but1 {
+    display: inline-block;
+    margin:10px;
+    background-color: hsla(0, 0%, 51%, 0);
+    border: none;
+    border-radius: 10px;
+  }
+  .but1:hover {
+    background-color:rgba(95, 158, 160, 0.71);
+    color:hsla(0, 34%, 66%, 0.489);
+  }
+  .but2 {
+    display: inline-block;
+    margin:10px;
+    background-color:hsla(0, 0%, 51%, 0) ;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .but2:hover {
+    background-color:rgba(95, 158, 160, 0.627);
+    color:hsl(0, 0%, 51%);
+  }
+  .but3 {
+    display: inline-block;
+    align-self: flex-end;
+    margin:10px;
+    position: relative;
+    margin-top:470px;
+    background-color: hsla(0, 0%, 51%, 0);
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .but3:hover {
+    background-color:rgba(95, 158, 160, 0.727);
+    color:hsl(0, 0%, 51%);
+  }
+
+.dash-main{
+    background-color: rgba(255, 255, 255, 0.547);
+    border:2px solid grey;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    gap:30px;
+    margin-top: 15px;
+    /*display:inline-block;*/
+    height: 100vh;
+    flex-direction:column;
+    width:60%;
+}
+.pg1{
+    margin-top: 90px;
+    display: inline-block;
+    width:800px;
+    height:180px;
+    border-radius: 20px;
+    background-color: white;
+    border:1px solid grey;
+}
+.pg2{
+    display: inline-block;
+    width:800px;
+    height:180px;
+    border-radius: 20px;
+    background-color:white ;
+    border:1px solid grey;
+}
+.pg3{
+        display: inline-block;
+        width:800px;
+        height:180px;
+        border-radius: 20px;
+        background-color: white;
+        border:1px solid grey;
+}
+.dash-section{
+    margin-right:10px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.634);
+    border:2px solid grey;
+    height: 87vh;
+    border-radius: 20px;
+    width:20%;
+}
