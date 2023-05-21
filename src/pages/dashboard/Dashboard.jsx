@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Dashboard.css"
-import logo from "C:/Users/jaimy/homefinder/src/images/homefinders-low-resolution-logo-color-on-transparent-background.png"
+import logo from "../../images/homefinders-low-resolution-logo-color-on-transparent-background.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope,faRightFromBracket,faTableColumns,faHome,faCoins,faStar,faPhone,faMailBulk,faCirclePlus, faPlusCircle} from '@fortawesome/free-solid-svg-icons';
 import {useContext,useState,useEffect} from "react";
